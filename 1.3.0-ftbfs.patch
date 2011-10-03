@@ -1,0 +1,13 @@
+http://code.google.com/p/ibus/issues/detail?id=1318
+
+--- origsrc/ibus-table-others-1.3.0.20100907/tables/emoji-table.txt	2010-09-07 03:59:19.000000000 -0500
++++ src/ibus-table-others-1.3.0.20100907/tables/emoji-table.txt	2011-10-03 13:28:10.792029800 -0500
+@@ -71,7 +71,7 @@ DEF_FULL_WIDTH_LETTER = FALSE
+ ### Whether user are allow to define phrase, default is true
+ ### You have to define the word construction rules below.
+ ### For input methods which do not input phrases, set this to False
+-USER_CAN_DEFINE_PHRASE = TRUE
++USER_CAN_DEFINE_PHRASE = FALSE
+ 
+ ### Whether support PinYin Mode, default is true.
+ ### this feature is just for Chinese, set it to False if your IM is not
